@@ -3,7 +3,7 @@ const navlinks=document.querySelector(".nav-links")
 const links= document.querySelectorAll(".nav-links li")
 const nav= document.querySelector("nav")
 const join=document.querySelector(".heading > .contain > a > span")
-
+const footer= document.querySelector(".footer")
 burger.addEventListener('click',()=>{
     navlinks.classList.toggle("open")
     nav.classList.toggle("open")
@@ -118,48 +118,48 @@ if (width<400){
 function company(){
     const company=document.querySelector(".company > ul")
     company.style.display="block"
-    const footer= document.querySelector(".footer")
+    
     footer.style.height="600px"
 }
 function company2(){
     const company=document.querySelector(".company > ul")
     company.style.display="none"
-    const footer= document.querySelector(".footer")
-    footer.style.height="450px"
+    
+    footer.style.height="auto"
 }
 function community(){
     const company=document.querySelector(".community > ul")
     company.style.display="block"
-    const footer= document.querySelector(".footer")
+    
     footer.style.height="600px"
 }
 function community2(){
     const company=document.querySelector(".community > ul")
     company.style.display="none"
-    const footer= document.querySelector(".footer")
-    footer.style.height="450px"
+    
+    footer.style.height="auto"
 }
 function teaching(){
     const company=document.querySelector(".teaching > ul")
     company.style.display="block"
-    const footer= document.querySelector(".footer")
+    
     footer.style.height="600px"
 }
 function teaching2(){
     const company=document.querySelector(".teaching > ul")
     company.style.display="none"
-    const footer= document.querySelector(".footer")
-    footer.style.height="450px"
+    
+    footer.style.height="auto"
 }
 function support(){
     const company=document.querySelector(".support > ul")
     company.style.display="block"
-    const footer= document.querySelector(".footer")
+    
     footer.style.height="600px"
 }
 function support2(){
     const company=document.querySelector(".support > ul")
     company.style.display="none"
-    const footer= document.querySelector(".footer")
-    footer.style.height="450px"
+    
+    footer.style.height="auto"
 }
