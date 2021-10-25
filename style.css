@@ -386,7 +386,7 @@ color: #F9ABA7;
 
 
 .footer{
-  padding: 5% 15%;
+  padding: 5% 15% 1% 15%;
   background-color: #282834;
   /* height: 420px; */
 }
@@ -598,7 +598,7 @@ nav{
     margin: 2% 2%;
 }
 .third-card{
-  border-radius: 0 7em;
+  border-radius: 0 5em;
 }
 .fourth-sec-cards{
   flex-direction: column;
